@@ -14,6 +14,12 @@
 		E07C7FC128AB8DF3004CB3AA /* CodeZellApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E07C7FBF28AB8DF3004CB3AA /* CodeZellApp.xcdatamodeld */; };
 		E07C7FC328AB8DF5004CB3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07C7FC228AB8DF5004CB3AA /* Assets.xcassets */; };
 		E07C7FC628AB8DF5004CB3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07C7FC428AB8DF5004CB3AA /* LaunchScreen.storyboard */; };
+		E07C7FD328AB8E28004CB3AA /* CodeZillaWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = E07C7FCE28AB8E28004CB3AA /* CodeZillaWhite.png */; };
+		E07C7FD428AB8E28004CB3AA /* 5lsona.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E07C7FCF28AB8E28004CB3AA /* 5lsona.jpeg */; };
+		E07C7FD528AB8E28004CB3AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E07C7FD028AB8E28004CB3AA /* GoogleService-Info.plist */; };
+		E07C7FD628AB8E28004CB3AA /* photo-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = E07C7FD128AB8E28004CB3AA /* photo-camera.png */; };
+		E07C7FD728AB8E28004CB3AA /* pickerImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E07C7FD228AB8E28004CB3AA /* pickerImage.png */; };
+		E07C7FD928AB9696004CB3AA /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07C7FD828AB9696004CB3AA /* FormCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		E07C7FC228AB8DF5004CB3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E07C7FC528AB8DF5004CB3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E07C7FC728AB8DF5004CB3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07C7FCE28AB8E28004CB3AA /* CodeZillaWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CodeZillaWhite.png; sourceTree = "<group>"; };
+		E07C7FCF28AB8E28004CB3AA /* 5lsona.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5lsona.jpeg; sourceTree = "<group>"; };
+		E07C7FD028AB8E28004CB3AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E07C7FD128AB8E28004CB3AA /* photo-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-camera.png"; sourceTree = "<group>"; };
+		E07C7FD228AB8E28004CB3AA /* pickerImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerImage.png; sourceTree = "<group>"; };
+		E07C7FD828AB9696004CB3AA /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				E07C7FB628AB8DF3004CB3AA /* AppDelegate.swift */,
+				E07C7FD828AB9696004CB3AA /* FormCell.swift */,
 				E07C7FB828AB8DF3004CB3AA /* SceneDelegate.swift */,
 				E07C7FBA28AB8DF3004CB3AA /* ViewController.swift */,
 				E07C7FBC28AB8DF3004CB3AA /* Main.storyboard */,
@@ -66,8 +79,21 @@
 				E07C7FC428AB8DF5004CB3AA /* LaunchScreen.storyboard */,
 				E07C7FC728AB8DF5004CB3AA /* Info.plist */,
 				E07C7FBF28AB8DF3004CB3AA /* CodeZellApp.xcdatamodeld */,
+				E07C7FCD28AB8E28004CB3AA /* Resources */,
 			);
 			path = CodeZellApp;
+			sourceTree = "<group>";
+		};
+		E07C7FCD28AB8E28004CB3AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E07C7FCE28AB8E28004CB3AA /* CodeZillaWhite.png */,
+				E07C7FCF28AB8E28004CB3AA /* 5lsona.jpeg */,
+				E07C7FD028AB8E28004CB3AA /* GoogleService-Info.plist */,
+				E07C7FD128AB8E28004CB3AA /* photo-camera.png */,
+				E07C7FD228AB8E28004CB3AA /* pickerImage.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E07C7FC628AB8DF5004CB3AA /* LaunchScreen.storyboard in Resources */,
+				E07C7FD328AB8E28004CB3AA /* CodeZillaWhite.png in Resources */,
 				E07C7FC328AB8DF5004CB3AA /* Assets.xcassets in Resources */,
+				E07C7FD728AB8E28004CB3AA /* pickerImage.png in Resources */,
+				E07C7FD428AB8E28004CB3AA /* 5lsona.jpeg in Resources */,
+				E07C7FD628AB8E28004CB3AA /* photo-camera.png in Resources */,
 				E07C7FBE28AB8DF3004CB3AA /* Main.storyboard in Resources */,
+				E07C7FD528AB8E28004CB3AA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +175,7 @@
 				E07C7FBB28AB8DF3004CB3AA /* ViewController.swift in Sources */,
 				E07C7FB728AB8DF3004CB3AA /* AppDelegate.swift in Sources */,
 				E07C7FB928AB8DF3004CB3AA /* SceneDelegate.swift in Sources */,
+				E07C7FD928AB9696004CB3AA /* FormCell.swift in Sources */,
 				E07C7FC128AB8DF3004CB3AA /* CodeZellApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
